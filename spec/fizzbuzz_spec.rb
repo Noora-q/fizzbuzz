@@ -24,6 +24,15 @@ describe 'fizzbuzz'
     expect(fizzbuzz(150)).to eq 'Fizzbuzz'
   end
 
+describe 'fizzbuzz'
+  it 'returns the number if not multiple of 3, 5 or 15' do
+    expect(fizzbuzz(7)).to eq 7
+    expect(fizzbuzz(38)).to eq 38
+    expect(fizzbuzz(94)).to eq 94
+    expect(fizzbuzz(101)).to eq 101
+  end
+
+
 end
 
 end
